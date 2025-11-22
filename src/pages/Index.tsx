@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Brain, FileText, TreeDeciduous, Layers, Users, Heart, Settings } from "lucide-react";
+import { Brain, FileText, TreeDeciduous, Layers, Users, Heart, Settings, CheckCircle2, Lightbulb, Scale, TrendingUp, Network } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -39,6 +39,55 @@ const Index = () => {
       description: "Identifique e trabalhe pensamentos automáticos e suas reações emocionais",
       path: "/pensamentos-automaticos",
       color: "text-therapeutic-calm",
+    },
+    {
+      icon: Brain,
+      title: "Crenças Nucleares",
+      description: "Compreenda e trabalhe crenças nucleares negativas e adaptativas",
+      path: "/crencas-nucleares",
+      color: "text-therapeutic-growth",
+    },
+    {
+      icon: CheckCircle2,
+      title: "Avaliação de Pensamentos",
+      description: "Ferramentas para avaliar e reestruturar pensamentos disfuncionais",
+      path: "/avaliacao-pensamentos",
+      color: "text-therapeutic-trust",
+    },
+    {
+      icon: Lightbulb,
+      title: "Descatastrofização",
+      description: "Questione pensamentos catastróficos de forma estruturada",
+      path: "/descatastrofizacao",
+      color: "text-therapeutic-warmth",
+    },
+    {
+      icon: Heart,
+      title: "Pensamento Compassivo",
+      description: "Desenvolva autocompaixão e transforme a autocrítica",
+      path: "/pensamento-compaixao",
+      color: "text-therapeutic-calm",
+    },
+    {
+      icon: Scale,
+      title: "Advogado de Defesa",
+      description: "Defenda-se contra pensamentos negativos usando técnicas jurídicas",
+      path: "/advogado-defesa",
+      color: "text-therapeutic-growth",
+    },
+    {
+      icon: TrendingUp,
+      title: "Análise Custo-Benefício",
+      description: "Avalie objetivamente vantagens e desvantagens de pensamentos",
+      path: "/analise-custo-beneficio",
+      color: "text-therapeutic-trust",
+    },
+    {
+      icon: Network,
+      title: "Diagrama de Conceitualização",
+      description: "Mapeie a estrutura cognitiva completa do caso",
+      path: "/diagrama-conceitualizacao",
+      color: "text-therapeutic-warmth",
     },
   ];
 
