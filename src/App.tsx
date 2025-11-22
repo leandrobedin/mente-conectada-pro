@@ -10,6 +10,13 @@ import CrencasIntermediarias from "./pages/CrencasIntermediarias";
 import ModeloIceberg from "./pages/ModeloIceberg";
 import ModeloArvore from "./pages/ModeloArvore";
 import PensamentosAutomaticos from "./pages/PensamentosAutomaticos";
+import CrencasNucleares from "./pages/CrencasNucleares";
+import AvaliacaoPensamentos from "./pages/AvaliacaoPensamentos";
+import Descatastrofizacao from "./pages/Descatastrofizacao";
+import PensamentoCompaixao from "./pages/PensamentoCompaixao";
+import AdvogadoDefesa from "./pages/AdvogadoDefesa";
+import AnaliseCustoBeneficio from "./pages/AnaliseCustoBeneficio";
+import DiagramaConceitualizacao from "./pages/DiagramaConceitualizacao";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +35,13 @@ const App = () => (
           <Route path="/modelo-iceberg" element={<ModeloIceberg />} />
           <Route path="/modelo-arvore" element={<ModeloArvore />} />
           <Route path="/pensamentos-automaticos" element={<PensamentosAutomaticos />} />
+          <Route path="/crencas-nucleares" element={<CrencasNucleares />} />
+          <Route path="/avaliacao-pensamentos" element={<AvaliacaoPensamentos />} />
+          <Route path="/descatastrofizacao" element={<Descatastrofizacao />} />
+          <Route path="/pensamento-compaixao" element={<PensamentoCompaixao />} />
+          <Route path="/advogado-defesa" element={<AdvogadoDefesa />} />
+          <Route path="/analise-custo-beneficio" element={<AnaliseCustoBeneficio />} />
+          <Route path="/diagrama-conceitualizacao" element={<DiagramaConceitualizacao />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
